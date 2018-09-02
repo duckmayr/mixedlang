@@ -1,0 +1,11 @@
+Package: mixedlang
+Type: Package
+Title: Demonstrates calling Fortran from C++ from R
+Version: 1.0
+Date: 2018-09-02
+Author: duckmayr
+Maintainer: duckmayr <duckmayr@somewhere.net>
+Description: Demonstrates calling Fortran from C++ from R
+License: GPL (>= 2.0)
+Imports: Rcpp (>= 0.12.18)
+LinkingTo: Rcpp, RcppArmadillo
