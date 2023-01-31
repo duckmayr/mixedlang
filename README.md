@@ -1,7 +1,7 @@
 # mixedlang
 
 `mixedlang` is an example of how to create an R package that utilizes C++ code that calls Fortran code (hence the name "mixedlang," short for mixed language programming).
-The package was created as part of an answer to a Stack Overflowquestion about creating an R function that leverages both C++ and Fortran ([available here](https://stackoverflow.com/questions/31396802/integrate-fortran-c-with-r/52136973#52136973)).
+The package was created as part of an answer to a Stack Overflow question about creating an R function that leverages both C++ and Fortran ([available here](https://stackoverflow.com/questions/31396802/integrate-fortran-c-with-r/52136973#52136973)).
 
 The package was created with the following steps:
 
