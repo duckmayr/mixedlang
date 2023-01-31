@@ -22,9 +22,21 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// facto
+int facto(int n);
+RcppExport SEXP _mixedlang_facto(SEXP nSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type n(nSEXP);
+    rcpp_result_gen = Rcpp::wrap(facto(n));
+    return rcpp_result_gen;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_mixedlang_test_function", (DL_FUNC) &_mixedlang_test_function, 1},
+    {"_mixedlang_facto", (DL_FUNC) &_mixedlang_facto, 1},
     {NULL, NULL, 0}
 };
 
